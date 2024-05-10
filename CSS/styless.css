@@ -1,0 +1,66 @@
+body{
+    background-image:url(https://caitlin-dalwai.github.io/Images2/wallpaper/work.png);
+}
+
+/* reason for using <ul> only is because im busy with the structure of the list not the info in the list itself */
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li{
+    list-style:none;
+}
+
+h1{
+    color: red;
+    text-align:center;
+    text-decoration: underline;
+}
+
+table, th, td{
+    text-align: center;
+    color: red;
+    margin:auto;
+    border-bottom: 2px red solid;
+}
+ a{
+    text-decoration: none;
+    color: red;
+ }
+
+ img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5ch;
+    object-fit: cover;
+
+ }
+
+ .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+
+ #underline{
+    border-bottom: 2px red solid;
+ }
+
+ ul li:hover{
+    background-color: white;
+ }
+
+ .card{
+    transition:ease 1s;
+ }
+
+ .card:hover{
+    transform:scale(2);
+    cursor: pointer;
+ }
+
+.no-underline{
+    border-bottom: none;
+}
+ 
